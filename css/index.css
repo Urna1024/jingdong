@@ -167,3 +167,12 @@ header > div:nth-child(2) > div > #da {
 #test:hover{background: url("https://m.360buyimg.com/babel/jfs/t1/55911/31/402/858/5cd4f23eE6f536460/5da079255c6dfabe.png")}
 
 #test1{width: 5px;height:100px;background: linear-gradient(0deg,#fff,#eee,#eee,#fff)}
+
+#swiper{width: 500px;height: 200px;margin:0 auto ;border:1px solid red;overflow: hidden}
+@keyframes run {
+    from{transform: translateX(0)}
+    to{transform: translateX(-600px)}
+    /*这个距离，是不重复的图片总宽度*/
+}
+#swiper>div{width: 99999px;height: 100%;animation: run 5s linear infinite}
+#swiper img{width:100px;float: left;}
