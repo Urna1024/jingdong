@@ -1,26 +1,169 @@
-ul{margin: 0;padding: 0}
-body{background-color: #f4f4f4}
-header{width: 100%;height: 170px;}
-header>div:nth-child(1){width: 100%;height: 30px;background-color: #e3e4e5;line-height: 30px}
-header>div:nth-child(1)>div{width:1200px;height: 100%;background-color:lightblue;margin: 0 auto}
-header>div:nth-child(1)>div>div{float: left}
-header>div:nth-child(1)>div>ul{width: 800px;display: flex;justify-content: space-between;
-    float: right;}
-.fontred{color: red}
-header>div:nth-child(1)>div>ul>li{}
-header>div:nth-child(2){width: 100%;height: 140px;background-color: #fff}
-header>div:nth-child(2)>div{width:1200px;height: 100%;margin: 0 auto;background-color: lightsalmon;display: flex;justify-content: space-between}
-header>div:nth-child(2)>div>a{display: inline-block;margin-top: 20px}
-header>div:nth-child(2)>div>#logo{width: 100px;height: 100px;background-image: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite@2x.png");background-size: 100px 150px}
-header>div:nth-child(2)>div>div{width: 746px;height: 100%;background: red;position: relative}
-header>div:nth-child(2)>div>div>ul{position: absolute;width: 100%;display: flex;justify-content: space-between;bottom: 0;left: 0}
-header>div:nth-child(2)>div>#da{width: 100px;height: 100px;background-image: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite@2x.png");background-size: 100px 150px}
+ul {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #f4f4f4
+}
+
+header {
+    width: 100%;
+    height: 170px;
+}
+
+header > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+    line-height: 30px
+}
+
+header > div:nth-child(1) > div {
+    width: 1200px;
+    height: 100%;
+    background-color: lightblue;
+    margin: 0 auto
+}
+
+header > div:nth-child(1) > div > div {
+    float: left
+}
+
+header > div:nth-child(1) > div > ul {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+.fontred {
+    color: red
+}
+
+header > div:nth-child(1) > div > ul > li {
+}
+
+header > div:nth-child(2) {
+    width: 100%;
+    height: 140px;
+    background-color: #fff
+}
+
+header > div:nth-child(2) > div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: lightsalmon;*/
+    display: flex;
+    justify-content: space-between
+}
+
+header > div:nth-child(2) > div > a {
+    display: inline-block;
+    margin-top: 20px
+}
+
+header > div:nth-child(2) > div > #logo {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite@2x.png");
+    background-size: 100px 150px
+}
+
+header > div:nth-child(2) > div > div {
+    width: 746px;
+    height: 100%;
+    /*background: red;*/
+    position: relative
+}
+#search{position: absolute;left: 52px;top: 25px;width: 710px;height: 52px;}
+#search>div{width: 544px;height: 32px;border:2px solid #e1251b}
+#search>div>input{width: 425px;height: 26px;padding: 2px 0 2px 17px;border:0;float: left;outline: none}
+#search>div>div{width: 44px;height: 32px;float: left;background: red}
+#search>div>button{width: 58px;height: 32px;float: left;border:0;background: #e1251b}
+#search>button{width: 132px;height: 36px;position: absolute;right: 0;top: 0;background: #fff;border-color: #eee;color:#e1251b }
+#search>ul{list-style: none;width: 550px;}
+#search>ul>li{float: left;margin-right: 10px}
+#search>ul>li>a{color: #999;font-size: 12px}
+
+header > div:nth-child(2) > div > div > ul {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0
+}
+
+header > div:nth-child(2) > div > #da {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite@2x.png");
+    background-size: 100px 150px
+}
+
 /************************************************/
-#content{width: 1200px;height: 10000px;margin: 10px auto 0;position: relative}/*高度将来要删掉*/
-#wwy{width: 100%;height: 480px;background-color: lightgreen;display: flex;justify-content: space-between}
-#wwy>ul{width: 190px;background: lightsalmon;height: 100%}
-#wwy1{width: 590px;background: lightcoral;height: 100%}
-#wwy2{width: 190px;background: lightgray;height: 100%}
-#wwy3{width: 190px;background: lightseagreen;height: 100%}
+#content {
+    width: 1200px;
+    height: 10000px;
+    margin: 10px auto 0;
+    position: relative
+}
+
+/*高度将来要删掉*/
+#wwy {
+    width: 100%;
+    height: 480px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between
+}
+
+#wwy > ul {
+    width: 190px;
+    background: lightsalmon;
+    height: 100%
+}
+
+#wwy1 {
+    width: 590px;
+    background: lightcoral;
+    height: 100%
+}
+
+#wwy2 {
+    width: 190px;
+    background: lightgray;
+    height: 100%
+}
+
+#wwy3 {
+    width: 190px;
+    background: lightseagreen;
+    height: 100%
+}
+
 /********************************************************/
-#elevator_list{width: 58px;height: 348px;position: sticky;top:100px;background-color: red;transform: translate(1220px)}
+#elevator_list {
+    width: 58px;
+    height: 348px;
+    position: sticky;
+    top: 100px;
+    background-color: red;
+    transform: translate(1220px)
+}
+
+#test {
+    width: 84px;
+    height: 84px;
+    margin: 100px auto;
+    border: 1px solid red;
+    /*overflow: hidden;*/
+    /*超出部分隐藏*/
+    /*position: relative;*/
+    background: url("https://m.360buyimg.com/babel/jfs/t1/57014/6/10297/815/5d773a07Ec7a61fc9/97917a2daa34be0f.png");
+}
+#test:hover{background: url("https://m.360buyimg.com/babel/jfs/t1/55911/31/402/858/5cd4f23eE6f536460/5da079255c6dfabe.png")}
+
+#test1{width: 5px;height:100px;background: linear-gradient(0deg,#fff,#eee,#eee,#fff)}
